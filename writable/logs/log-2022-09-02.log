@@ -1,0 +1,171 @@
+CRITICAL - 2022-09-02 01:25:38 --> fopen(/storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Authentication/Passwords/_dictionary.txt): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/DictionaryValidator.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/DictionaryValidator.php(26): fopen()
+ 3 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\DictionaryValidator->check()
+ 4 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check()
+ 5 SYSTEMPATH/Validation/Validation.php(314): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password()
+ 6 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php(164): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 01:44:26 --> fopen(/storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Authentication/Passwords/_dictionary.txt): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/DictionaryValidator.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/DictionaryValidator.php(26): fopen()
+ 3 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\DictionaryValidator->check()
+ 4 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check()
+ 5 SYSTEMPATH/Validation/Validation.php(314): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password()
+ 6 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php(164): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 01:46:30 --> fopen(/storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Authentication/Passwords/_dictionary.txt): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/DictionaryValidator.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/DictionaryValidator.php(26): fopen()
+ 3 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\DictionaryValidator->check()
+ 4 APPPATH/ThirdParty/myth-auth/src/Authentication/Passwords/ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check()
+ 5 SYSTEMPATH/Validation/Validation.php(314): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password()
+ 6 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php(164): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 02:01:54 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:01:54 --> 220 smtp.gmail.com ESMTP y11-20020a37f60b000000b006b872b606b1sm811394qkj.128 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2a02:4780:bad:9:fced:1ff:fe09:60]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor y11-20020a37f60b000000b006b872b606b1sm811394qkj.128 - gsmtp
+
+ERROR - 2022-09-02 02:02:38 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:02:38 --> 220 smtp.gmail.com ESMTP w17-20020a05620a0e9100b006a6d7c3a82esm864703qkm.15 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2a02:4780:bad:9:fced:1ff:fe09:60]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor w17-20020a05620a0e9100b006a6d7c3a82esm864703qkm.15 - gsmtp
+
+ERROR - 2022-09-02 02:03:20 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:03:20 --> 220 smtp.gmail.com ESMTP l21-20020a37f915000000b006bbe7ded98csm824340qkj.112 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2a02:4780:bad:9:fced:1ff:fe09:60]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor l21-20020a37f915000000b006bbe7ded98csm824340qkj.112 - gsmtp
+
+ERROR - 2022-09-02 02:06:38 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:06:38 --> 220 smtp.gmail.com ESMTP ay8-20020a05620a178800b006b949afa980sm845988qkb.56 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2a02:4780:bad:9:fced:1ff:fe09:60]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ay8-20020a05620a178800b006b949afa980sm845988qkb.56 - gsmtp
+
+CRITICAL - 2022-09-02 02:39:22 --> Undefined variable $config
+in APPPATH/Views/auth/Login.php on line 40.
+ 1 APPPATH/Views/auth/Login.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/auth/Login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Auth.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->login()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 02:40:57 --> Undefined variable $config
+in APPPATH/Views/auth/Login.php on line 64.
+ 1 APPPATH/Views/auth/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/auth/Login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Auth.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->login()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 02:53:01 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:53:01 --> 220 smtp.gmail.com ESMTP z7-20020ac86b87000000b0034035e73be0sm666359qts.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2a02:4780:bad:9:fced:1ff:fe09:60]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor z7-20020ac86b87000000b0034035e73be0sm666359qts.4 - gsmtp
+
+ERROR - 2022-09-02 02:56:26 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1863): fsockopen()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Authentication/Activators/EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 /storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Controllers/AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 02:56:26 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:56:26 --> 
+ERROR - 2022-09-02 02:57:37 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1863): fsockopen()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Authentication/Activators/EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 /storage/ssd5/691/19482691/public_html/app/ThirdParty/myth-auth/src/Controllers/AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 02:57:37 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-02 02:57:37 --> 

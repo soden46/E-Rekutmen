@@ -1,0 +1,15 @@
+CRITICAL - 2022-09-12 00:31:11 --> Attempt to read property "username" on null
+in APPPATH/Views/main/template/navbar.php on line 158.
+ 1 APPPATH/Views/main/template/navbar.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/navbar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/main/user/lamar/index.php(35): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User.php(46): view()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

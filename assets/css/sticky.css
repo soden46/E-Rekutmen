@@ -1,0 +1,77 @@
+.navbar-default .navbar-nav > li.clr1 a{
+        color:#ffffff;
+}
+.navbar-default .navbar-nav > li.clr2 a{
+    color: #FFEB3B;;
+}
+.navbar-default .navbar-nav > li.clr3 a{
+    color: #5EC64D;
+}
+.navbar-default .navbar-nav > li.clr4 a{
+    color: #29AAE2;
+}
+.navbar-default .navbar-nav > li.clr5 a{
+    color: #CEE229;
+}
+
+
+.navbar-default .navbar-nav > li.clr1.active a{
+    color:#fff;
+    background: #F55;
+}
+.navbar-default .navbar-nav > li.clr1 a:hover{
+    background: rgba(255, 85, 85, 0.75);
+} 
+.navbar-default .navbar-nav > li.clr2.active a{
+    color: #fff;
+    background:#973CB6;
+}
+.navbar-default .navbar-nav > li.clr2 a:hover{
+ background: rgba(151, 60, 182, 0.66)
+}
+
+
+.navbar-default .navbar-nav > li.clr3.active a{
+    color: #fff;
+    background:#5EC64D;
+}
+.navbar-default .navbar-nav > li.clr3 a:hover
+{
+  background: rgba(94, 198, 77, 0.78);
+}
+.navbar-default .navbar-nav > li.clr4.active a{
+    color: #fff;
+    background: #29AAE2;
+}
+.navbar-default .navbar-nav > li.clr4 a:hover{
+    background: rgba(41, 170, 226, 0.62);
+}
+
+.navbar-default .navbar-nav > li.clr5.active a{
+    color: #fff;
+    background: #CEE229;
+}
+.navbar-default .navbar-nav > li.clr5 a:hover{
+    background: rgba(206, 226, 41, 0.63);
+}
+.navbar-default{
+    background-color: rgb(4, 37, 130);
+    font-size:18px;
+    border-color:none;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-weight:bold;
+}
+.navbar-default .navbar-text {
+    color:#ffffff;
+}
+
+.pemisah-btnnav{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    padding-top: 150px;
+}

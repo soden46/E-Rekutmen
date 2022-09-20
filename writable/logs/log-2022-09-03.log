@@ -1,0 +1,94 @@
+CRITICAL - 2022-09-03 11:39:29 --> You do not have sufficient permissions to access that page.
+in APPPATH/ThirdParty/myth-auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 11:40:11 --> You do not have sufficient permissions to access that page.
+in APPPATH/ThirdParty/myth-auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 12:05:57 --> Cannot call constructor
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 12:41:48 --> Undefined property: App\Controllers\Auth::$session
+in APPPATH/Controllers/Auth.php on line 13.
+ 1 APPPATH/Controllers/Auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 12:51:09 --> Class "App\Controllers\UsersModel" not found
+in APPPATH/Controllers/Auth.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 12:52:34 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Auth.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 12:53:12 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Auth.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 12:54:46 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Auth.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:30:35 --> Undefined property: App\Controllers\Auth::$input
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 APPPATH/Controllers/Auth.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:31:49 --> Undefined property: App\Controllers\Auth::$input
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 APPPATH/Controllers/Auth.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:32:17 --> Cannot decrement App\Controllers\Auth
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:32:38 --> Call to undefined method App\Controllers\Auth::post()
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:39:28 --> Class "App\Controllers\M_user" not found
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:40:16 --> Class "App\Models\M_user" not found
+in APPPATH/Controllers/Auth.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 13:40:57 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Auth.php on line 17.
+ 1 APPPATH/Controllers/Auth.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->proseslogin()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

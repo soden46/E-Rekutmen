@@ -1,0 +1,1844 @@
+ERROR - 2022-09-10 00:17:23 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:50 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:50 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:51 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:51 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:52 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:52 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:53 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:53 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:54 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:54 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:54 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:55 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:55 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:56 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:56 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:57 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:57 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:58 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:58 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:18:59 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:00 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:01 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:01 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:02 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:02 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:02 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:03 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:03 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:04 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:04 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:05 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:05 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:05 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:06 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:06 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:07 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:07 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:07 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:08 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-10 00:19:08 --> mysqli_sql_exception: Column 'nama' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(35): CodeIgniter\BaseModel->save()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#10 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-10 01:20:16 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/main/user/lamar/index.php on line 45.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(44): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 01:20:31 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/main/user/lamar/index.php on line 45.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(44): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 01:32:59 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/main/user/lamar/index.php on line 45.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(44): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 01:34:31 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/main/user/lamar/index.php on line 45.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(44): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:16:06 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:16:10 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:17:39 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:18:25 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:18:40 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:18:47 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:21:52 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:21:55 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(59): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:30:21 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:30:32 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Lamar.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Lamar->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:35:17 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:35:49 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:37:26 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:42:14 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:45:43 --> Undefined variable $validation
+in APPPATH/Controllers/User.php on line 141.
+ 1 APPPATH/Controllers/User.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:56:55 --> Declaration of App\Models\lamaran::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH/Models/lamaran.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-10 02:58:21 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 40.
+ 1 APPPATH/Views/main/user/lamar/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(154): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:00:27 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:01:00 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:01:09 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:01:45 --> Invalid file: create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:02:51 --> Invalid file: User/create.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:03:10 --> Invalid file: index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:03:41 --> Invalid file: user/main/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(113): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:04:28 --> Call to a member function hasMoved() on string
+in APPPATH/Controllers/User.php on line 116.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:05:07 --> Call to a member function hasMoved() on null
+in APPPATH/Controllers/User.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:10:49 --> Call to a member function hasMoved() on null
+in APPPATH/Controllers/User.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 03:11:25 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(153): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-10 03:12:03 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(153): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-10 03:13:17 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(153): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-10 03:16:25 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(153): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-10 13:01:34 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(122): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-10 13:26:58 --> Call to undefined function App\Controllers\move()
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:27:00 --> Call to undefined function App\Controllers\move()
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:34:44 --> Call to undefined function App\Controllers\move()
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:35:31 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:36:38 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:37:11 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:38:55 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:46:55 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:52:44 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:53:38 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:57:05 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:57:43 --> Undefined variable $filefoto
+in APPPATH/Controllers/User.php on line 116.
+ 1 APPPATH/Controllers/User.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:58:29 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 116.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 13:58:56 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 116.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 14:03:05 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 14:04:18 --> Call to undefined method App\Controllers\User::move()
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 14:04:54 --> Call to a member function moveFile() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:16:31 --> Call to a member function moveFile() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:19:04 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:25:22 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:26:12 --> Call to a member function getVar() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:26:31 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:26:54 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:27:11 --> Call to undefined method App\Controllers\User::getName()
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:27:59 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 112.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:29:48 --> Undefined variable $imagefile
+in APPPATH/Controllers/User.php on line 118.
+ 1 APPPATH/Controllers/User.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:30:40 --> Undefined variable $namafoto
+in APPPATH/Controllers/User.php on line 147.
+ 1 APPPATH/Controllers/User.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:36:23 --> Undefined variable $namaFoto
+in APPPATH/Controllers/User.php on line 178.
+ 1 APPPATH/Controllers/User.php(178): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:38:22 --> Undefined variable $namaFoto
+in APPPATH/Controllers/User.php on line 180.
+ 1 APPPATH/Controllers/User.php(180): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:42:44 --> Undefined variable $foto
+in APPPATH/Controllers/User.php on line 120.
+ 1 APPPATH/Controllers/User.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:43:38 --> Call to a member function getRandomName() on array
+in APPPATH/Controllers/User.php on line 120.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:46:29 --> Call to a member function move() on array
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:46:58 --> Call to a member function move() on array
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:52:31 --> Undefined variable $filfoto
+in APPPATH/Controllers/User.php on line 111.
+ 1 APPPATH/Controllers/User.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:52:51 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:55:16 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:57:17 --> Call to a member function getName() on array
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:59:09 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:59:29 --> Undefined variable $foto
+in APPPATH/Controllers/User.php on line 111.
+ 1 APPPATH/Controllers/User.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 16:59:49 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:03:41 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:11:06 --> Call to a member function isValid() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:14:58 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:15:38 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:18:42 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:18:54 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:19:24 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:21:50 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:22:15 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:27:52 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 109.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:28:23 --> Undefined variable $namaFoto
+in APPPATH/Controllers/User.php on line 174.
+ 1 APPPATH/Controllers/User.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:28:44 --> Undefined variable $namafoto
+in APPPATH/Controllers/User.php on line 174.
+ 1 APPPATH/Controllers/User.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:30:00 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:30:27 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 17:30:58 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(177): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-10 17:31:10 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(177): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-10 17:38:34 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 108.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:39:20 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 108.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:39:59 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 108.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:40:47 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 108.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:55:35 --> Unmatched '}'
+in APPPATH/Controllers/User.php on line 216.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(854): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:56:14 --> Call to a member function hasMoved() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:58:49 --> Unclosed '{' on line 11
+in APPPATH/Controllers/User.php on line 214.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(854): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 17:59:01 --> Unclosed '{' on line 75
+in APPPATH/Controllers/User.php on line 214.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(854): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:23:01 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /storage/ssd5/691/19482691/public_html/app/Controllers/User.php on line 109 and exactly 1 expected
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 744.
+ 1 APPPATH/Controllers/User.php(109): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:28:26 --> Call to a member function isValid() on null
+in APPPATH/Controllers/User.php on line 110.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:30:09 --> Call to a member function hasMoved() on null
+in APPPATH/Controllers/User.php on line 110.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:35:38 --> Undefined variable $file
+in APPPATH/Controllers/User.php on line 109.
+ 1 APPPATH/Controllers/User.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:35:50 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/User.php on line 109.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:48:08 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 18:51:10 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(120): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-10 18:51:38 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(120): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-10 18:54:38 --> Call to a member function getVar() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:54:58 --> Call to a member function Name() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:55:14 --> Call to a member function Name() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:55:37 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:56:04 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:56:21 --> Call to undefined method App\Controllers\User::getName()
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 18:56:49 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 19:34:00 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:05:58 --> Undefined property: App\Controllers\User::$load
+in APPPATH/Controllers/User.php on line 17.
+ 1 APPPATH/Controllers/User.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\User->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:06:18 --> Call to undefined method App\Controllers\User::helper()
+in APPPATH/Controllers/User.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:07:31 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:10:28 --> Call to a member function getClientName() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:11:00 --> Call to a member function getPost() on null
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:11:36 --> Call to undefined method App\Controllers\User::getName()
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:11:53 --> Call to undefined method App\Controllers\User::getVar()
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:12:18 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+in APPPATH/Controllers/User.php on line 107.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:13:02 --> Call to a member function getVar() on null
+in APPPATH/Controllers/User.php on line 109.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:13:51 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:15:25 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:16:10 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:18:08 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:18:11 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:18:36 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:21:29 --> Call to a member function move() on string
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:22:11 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 121.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:24:53 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:25:26 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:30:16 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 120.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:31:32 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 112.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:42:23 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 113.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:43:20 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 113.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:44:11 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 113.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 20:45:18 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 109.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 21:03:44 --> Attempt to read property "username" on null
+in APPPATH/Views/main/template/navbar.php on line 158.
+ 1 APPPATH/Views/main/template/navbar.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/navbar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/main/user/lamar/index.php(35): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User.php(45): view()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 21:16:52 --> Invalid file: main/user/lamar/lamar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(73): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->create()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 21:47:48 --> Attempt to read property "username" on null
+in APPPATH/Views/main/template/navbar.php on line 158.
+ 1 APPPATH/Views/main/template/navbar.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/navbar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/main/user/lamar/index.php(35): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User.php(45): view()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:22:44 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:36:57 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:39:30 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:42:30 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:44:55 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:45:35 --> Call to a member function getName() on null
+in APPPATH/Controllers/User.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:54:57 --> Call to a member function move() on null
+in APPPATH/Controllers/User.php on line 118.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:09:36 --> Undefined property: App\Controllers\User::$lamaran
+in APPPATH/Controllers/User.php on line 125.
+ 1 APPPATH/Controllers/User.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:10:15 --> Undefined variable $data
+in APPPATH/Controllers/User.php on line 125.
+ 1 APPPATH/Controllers/User.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 23:10:34 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(132): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-10 23:10:34 --> Undefined variable $session
+in APPPATH/Controllers/User.php on line 133.
+ 1 APPPATH/Controllers/User.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 23:12:23 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(29): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/User.php(132): App\Models\lamaran->savedata()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\User->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-10 23:43:28 --> Call to a member function getError() on null
+in APPPATH/Views/main/user/lamar/index.php on line 52.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(45): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:47:17 --> Call to a member function getError() on null
+in APPPATH/Views/main/user/lamar/index.php on line 52.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(45): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:47:21 --> Call to a member function getError() on null
+in APPPATH/Views/main/user/lamar/index.php on line 52.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(45): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:49:09 --> Call to a member function getError() on null
+in APPPATH/Views/main/user/lamar/index.php on line 52.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(45): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:50:13 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+in APPPATH/Controllers/User.php on line 79.
+ 1 APPPATH/Controllers/User.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

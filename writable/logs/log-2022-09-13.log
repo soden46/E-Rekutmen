@@ -1,0 +1,471 @@
+CRITICAL - 2022-09-13 00:52:28 --> Undefined property: App\Controllers\User::$upload
+in APPPATH/Controllers/User.php on line 129.
+ 1 APPPATH/Controllers/User.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 00:52:55 --> Undefined property: App\Controllers\User::$load
+in APPPATH/Controllers/User.php on line 126.
+ 1 APPPATH/Controllers/User.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 01:44:36 --> Attempt to read property "username" on null
+in APPPATH/Views/main/template/navbar.php on line 158.
+ 1 APPPATH/Views/main/template/navbar.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/navbar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/main/user/lamar/index.php(39): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User.php(46): view()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 01:48:57 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 61.
+ 1 APPPATH/Views/main/user/lamar/index.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(46): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 02:48:54 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH/Controllers/User.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 02:48:55 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH/Controllers/User.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 02:48:56 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH/Controllers/User.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 02:49:27 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH/Controllers/User.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 02:50:42 --> Call to a member function getClientName() on null
+in APPPATH/Controllers/User.php on line 198.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 02:50:42 --> Call to a member function getClientName() on null
+in APPPATH/Controllers/User.php on line 198.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 03:10:54 --> Call to a member function getClientName() on null
+in APPPATH/Controllers/User.php on line 198.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 03:11:48 --> Call to a member function getClientName() on null
+in APPPATH/Controllers/User.php on line 198.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 03:16:32 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH/Controllers/User.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 03:17:01 --> Undefined variable $validation
+in APPPATH/Controllers/User.php on line 207.
+ 1 APPPATH/Controllers/User.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 11:26:58 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 65.
+ 1 APPPATH/Views/main/user/lamar/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(46): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 11:27:03 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 65.
+ 1 APPPATH/Views/main/user/lamar/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(46): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 11:37:37 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 65.
+ 1 APPPATH/Views/main/user/lamar/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(46): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 11:38:30 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 65.
+ 1 APPPATH/Views/main/user/lamar/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(46): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 11:46:32 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 65.
+ 1 APPPATH/Views/main/user/lamar/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(46): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:17:38 --> Invalid file: user/status/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(41): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:17:41 --> Invalid file: user/status/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(41): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:18:20 --> Undefined variable $title
+in APPPATH/Views/main/user/status/index.php on line 44.
+ 1 APPPATH/Views/main/user/status/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/status/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(41): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:27:53 --> Undefined variable $lamaran
+in APPPATH/Views/main/user/status/index.php on line 66.
+ 1 APPPATH/Views/main/user/status/index.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/status/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(41): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:28:34 --> Undefined variable $lamaran
+in APPPATH/Views/main/user/status/index.php on line 66.
+ 1 APPPATH/Views/main/user/status/index.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/status/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(41): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:57:26 --> Call to a member function table() on null
+in APPPATH/Controllers/User.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:41:11 --> Call to undefined method App\Controllers\User::ssesion()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:41:29 --> Call to undefined method App\Controllers\User::sesion()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:41:50 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:42:38 --> Call to a member function userdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:42:56 --> Call to a member function users() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:45:27 --> Call to a member function users() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:47:33 --> Call to undefined method App\Controllers\User::user()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:48:09 --> Call to a member function user() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:50:01 --> Call to a member function userdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:51:16 --> Call to a member function userdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:53:40 --> Call to a member function userdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:11:54 --> Call to a member function userdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:12:18 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:12:41 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:13:03 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 APPPATH/Controllers/User.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:14:28 --> Call to undefined method App\Controllers\User::user()
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:14:50 --> Call to a member function user() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:16:02 --> Call to a member function getFlashdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:16:29 --> Call to a member function getFlashdata() on null
+in APPPATH/Controllers/User.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:17:16 --> Undefined variable $session
+in APPPATH/Controllers/User.php on line 138.
+ 1 APPPATH/Controllers/User.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:19:00 --> Undefined variable $session
+in APPPATH/Controllers/User.php on line 131.
+ 1 APPPATH/Controllers/User.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:19:33 --> Call to a member function userData() on null
+in APPPATH/Controllers/User.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:20:10 --> Attempt to read property "userData" on null
+in APPPATH/Controllers/User.php on line 139.
+ 1 APPPATH/Controllers/User.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:27:10 --> Call to a member function get() on null
+in APPPATH/Controllers/User.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:28:44 --> Call to a member function get() on null
+in APPPATH/Controllers/User.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:29:13 --> Call to a member function get() on null
+in APPPATH/Controllers/User.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:29:50 --> Call to a member function get() on null
+in APPPATH/Controllers/User.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:32:56 --> Undefined variable $username
+in APPPATH/Controllers/User.php on line 134.
+ 1 APPPATH/Controllers/User.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:47:00 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 134.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:48:38 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 134.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 16:50:18 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 141.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 17:17:22 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 143.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 17:26:03 --> Call to a member function get() on null
+in APPPATH/Controllers/User.php on line 143.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 17:26:58 --> Call to undefined method App\Controllers\User::session()
+in APPPATH/Controllers/User.php on line 136.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 17:27:14 --> Call to a member function get() on null
+in APPPATH/Controllers/User.php on line 143.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->save()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 17:45:41 --> Undefined variable $builder
+in APPPATH/Controllers/User.php on line 37.
+ 1 APPPATH/Controllers/User.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 17:48:45 --> Call to a member function select() on null
+in APPPATH/Controllers/User.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Status()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 18:54:09 --> Attempt to read property "foto" on string
+in APPPATH/Views/main/admin/lamaran.php on line 162.
+ 1 APPPATH/Views/main/admin/lamaran.php(162): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 18:58:20 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Views/main/admin/lamaran.php on line 162.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin.php(39): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 18:58:39 --> Object of type stdClass is not callable
+in APPPATH/Views/main/admin/lamaran.php on line 162.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin.php(39): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

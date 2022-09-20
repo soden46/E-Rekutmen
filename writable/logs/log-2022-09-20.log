@@ -1,0 +1,69 @@
+CRITICAL - 2022-09-20 19:07:47 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('Login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-20 19:18:24 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-20 19:18:24 --> 220 smtp.googlemail.com ESMTP s2-20020a170902ea0200b00172f4835f53sm1245895plg.192 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [103.144.170.148]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError s2-20020a170902ea0200b00172f4835f53sm1245895plg.192 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError s2-20020a170902ea0200b00172f4835f53sm1245895plg.192 - gsmtp
+
+quit: 221 2.0.0 closing connection s2-20020a170902ea0200b00172f4835f53sm1245895plg.192 - gsmtp
+
+ERROR - 2022-09-20 23:42:15 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-20 23:42:15 --> 220 smtp.googlemail.com ESMTP n9-20020a170902d2c900b00176a47e5840sm68344plc.298 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [103.144.170.148]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n9-20020a170902d2c900b00176a47e5840sm68344plc.298 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n9-20020a170902d2c900b00176a47e5840sm68344plc.298 - gsmtp
+
+quit: 221 2.0.0 closing connection n9-20020a170902d2c900b00176a47e5840sm68344plc.298 - gsmtp
+
+ERROR - 2022-09-20 23:44:42 --> Email: Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-09-20 23:44:42 --> 220 smtp.googlemail.com ESMTP c17-20020aa79531000000b0054ad9c6b70fsm148299pfp.8 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [103.144.170.148]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError c17-20020aa79531000000b0054ad9c6b70fsm148299pfp.8 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError c17-20020aa79531000000b0054ad9c6b70fsm148299pfp.8 - gsmtp
+
+quit: 221 2.0.0 closing connection c17-20020aa79531000000b0054ad9c6b70fsm148299pfp.8 - gsmtp
+

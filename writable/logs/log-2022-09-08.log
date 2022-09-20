@@ -1,0 +1,1089 @@
+CRITICAL - 2022-09-08 00:01:30 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:05:13 --> Undefined variable $db
+in APPPATH/Controllers/Admin.php on line 12.
+ 1 APPPATH/Controllers/Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:05:26 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 00:05:26 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:10:08 --> Undefined variable $title
+in APPPATH/Views/main/admin/lamaran.php on line 11.
+ 1 APPPATH/Views/main/admin/lamaran.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:11:22 --> Undefined variable $title
+in APPPATH/Views/main/admin/lamaran.php on line 11.
+ 1 APPPATH/Views/main/admin/lamaran.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:12:29 --> Undefined variable $lamaran
+in APPPATH/Views/main/admin/lamaran.php on line 385.
+ 1 APPPATH/Views/main/admin/lamaran.php(385): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:13:10 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:13:51 --> Undefined array key "lamaran"
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 APPPATH/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:15:46 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:17:48 --> mysqli_sql_exception: Unknown column 'lamaran.deleted_at' in 'where clause' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-08 00:17:48 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 2 APPPATH/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:19:03 --> Call to undefined method App\Models\lamaran::getResult
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:19:19 --> mysqli_sql_exception: Unknown column 'lamaran.deleted_at' in 'where clause' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-08 00:19:19 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 2 APPPATH/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:20:05 --> mysqli_sql_exception: Unknown column 'lamaran.deleted_at' in 'where clause' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-08 00:20:05 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 2 APPPATH/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:22:18 --> mysqli_sql_exception: Unknown column 'lamaran.deleted_at' in 'where clause' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-08 00:22:18 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 2 APPPATH/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:29:10 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-08 00:29:10 --> mysqli_sql_exception: Unknown column 'lamaran.deleted_at' in 'where clause' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-08 00:29:10 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 2 APPPATH/Controllers/Admin.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:33:04 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 00:33:04 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 00:38:20 --> mysqli_sql_exception: Column 'status' in field list is ambiguous in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 00:38:20 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 00:40:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::form()
+in APPPATH/Controllers/Admin.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 01:07:44 --> Class "App\ThirdParty\myth\auth\src\Models\UsersModel" not found
+in APPPATH/Controllers/Auth.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 01:12:31 --> Unclosed '{' on line 53
+in APPPATH/Config/Routes.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 01:18:11 --> Call to a member function has() on null
+in APPPATH/Controllers/Admin.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 01:20:44 --> Call to a member function has() on null
+in APPPATH/Controllers/Admin.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 01:45:34 --> Undefined constant "App\Controllers\main"
+in APPPATH/Controllers/Main.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 01:46:37 --> Undefined variable $title
+in APPPATH/Views/main/layout.php on line 11.
+ 1 APPPATH/Views/main/layout.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Main.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 02:00:12 --> Class name must be a valid object or a string
+in APPPATH/ThirdParty/myth-auth/src/Config/Services.php on line 81.
+ 1 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 2 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 3 APPPATH/ThirdParty/myth-auth/src/Config/Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance()
+ 4 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH/Common.php(967): CodeIgniter\Config\BaseService::__callStatic()
+ 6 APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php(184): service()
+ 7 SYSTEMPATH/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 09:26:15 --> syntax error, unexpected token "public"
+in APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php on line 72.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(854): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:10:35 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AuthAdmin.php(17): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\AuthAdmin->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:18:07 --> Undefined variable $title
+in APPPATH/Views/admin/index.php on line 11.
+ 1 APPPATH/Views/admin/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AuthAdmin.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\AuthAdmin->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:20:13 --> Undefined variable $title
+in APPPATH/Views/admin/index.php on line 11.
+ 1 APPPATH/Views/admin/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AuthAdmin.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\AuthAdmin->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:32:33 --> Invalid file: admin/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AuthAdmin.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\AuthAdmin->login()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:32:36 --> Invalid file: admin/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AuthAdmin.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\AuthAdmin->login()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:34:16 --> Unclosed '{' on line 55
+in APPPATH/Config/Routes.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:34:34 --> Invalid file: admin/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AuthAdmin.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\AuthAdmin->login()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 11:39:03 --> Undefined variable $redirectURL
+in APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php on line 101.
+ 1 APPPATH/ThirdParty/myth-auth/src/Controllers/AuthController.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 12:55:56 --> include(main/admin/index): Failed to open stream: No such file or directory
+in APPPATH/Views/main/layout.php on line 2.
+ 1 APPPATH/Views/main/layout.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/main/layout.php(2): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Main.php(25): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 12:58:44 --> Call to undefined method CodeIgniter\View\View::redirect()
+in APPPATH/Views/main/layout.php on line 2.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:00:38 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH/Views/main/layout.php on line 2.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:01:37 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH/Views/main/layout.php on line 2.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:02:04 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH/Views/main/layout.php on line 2.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:02:27 --> Call to undefined method CodeIgniter\View\View::redirect()
+in APPPATH/Views/main/layout.php on line 2.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:09:01 --> The route for "https://bentokopi.000webhostapp.com/admin" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:09:19 --> The route for "https://bentokopi.000webhostapp.com/Admin" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:10:59 --> The route for "https://bentokopi.000webhostapp.com/admin" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:13:07 --> The route for "https://bentokopi.000webhostapp.com/admin/index" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:14:20 --> The route for "https://bentokopi.000webhostapp.com/admin" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:16:47 --> The route for "https://bentokopi.000webhostapp.com/Admin" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:18:38 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH/Views/main/layout.php on line 2.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:20:21 --> The route for "/Admin" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(2): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:22:06 --> The route for "https://bentokopi.000webhostapp.com/user" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(869): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Views/main/layout.php(5): redirect()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(25): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:23:43 --> include(main\admin\index): Failed to open stream: No such file or directory
+in APPPATH/Views/main/layout.php on line 2.
+ 1 APPPATH/Views/main/layout.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/main/layout.php(2): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Main.php(25): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:24:09 --> include(main/admin/index): Failed to open stream: No such file or directory
+in APPPATH/Views/main/layout.php on line 2.
+ 1 APPPATH/Views/main/layout.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/main/layout.php(2): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Main.php(25): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 13:27:04 --> Call to undefined method CodeIgniter\View\View::redirectTo()
+in APPPATH/Views/main/layout.php on line 5.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Main.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 15:50:05 --> Invalid file: main/template/sidebaruser.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/main/user/index.php(30): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(36): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 16:40:02 --> Undefined variable $db
+in APPPATH/Controllers/User.php on line 19.
+ 1 APPPATH/Controllers/User.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\User->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 16:40:50 --> Undefined variable $db
+in APPPATH/Controllers/User.php on line 19.
+ 1 APPPATH/Controllers/User.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\User->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 17:38:52 --> Undefined variable $db
+in APPPATH/Controllers/Lamar.php on line 13.
+ 1 APPPATH/Controllers/Lamar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Lamar->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 17:39:53 --> Undefined variable $db
+in APPPATH/Controllers/Lamar.php on line 13.
+ 1 APPPATH/Controllers/Lamar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Lamar->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 17:39:58 --> Undefined variable $db
+in APPPATH/Controllers/Lamar.php on line 13.
+ 1 APPPATH/Controllers/Lamar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Lamar->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 18:38:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`id19482691_bentokopi`.`lamaran`, CONSTRAINT `user` FOREIGN KEY (`id`) REFERENCES `users` (`id`)) in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 18:39:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`id19482691_bentokopi`.`lamaran`, CONSTRAINT `user` FOREIGN KEY (`id`) REFERENCES `users` (`id`)) in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 18:41:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`id19482691_bentokopi`.`lamaran`, CONSTRAINT `user` FOREIGN KEY (`id`) REFERENCES `users` (`id`)) in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 20:54:02 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar.php on line 12.
+ 1 APPPATH/Views/main/user/lamar.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 20:55:35 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar.php on line 12.
+ 1 APPPATH/Views/main/user/lamar.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 20:57:05 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar.php on line 12.
+ 1 APPPATH/Views/main/user/lamar.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:17:07 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 11.
+ 1 APPPATH/Views/main/user/lamar/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:17:13 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 11.
+ 1 APPPATH/Views/main/user/lamar/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:18:35 --> Undefined variable $title
+in APPPATH/Views/main/user/index.php on line 11.
+ 1 APPPATH/Views/main/user/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:19:32 --> Undefined variable $title
+in APPPATH/Views/main/user/index.php on line 11.
+ 1 APPPATH/Views/main/user/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:20:08 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 11.
+ 1 APPPATH/Views/main/user/lamar/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:35:19 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 11.
+ 1 APPPATH/Views/main/user/lamar/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:35:55 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 11.
+ 1 APPPATH/Views/main/user/lamar/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:38:11 --> Invalid file: main/user/lamar/lindex.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(38): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:39:26 --> Invalid file: main/user/lamar/lindex.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(38): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:39:28 --> Invalid file: main/user/lamar/lindex.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(38): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:39:37 --> Invalid file: main/user/lamar/lindex.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(38): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:46:13 --> Invalid file: main/user/lamar/lindex.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(38): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:48:27 --> Invalid file: main/user/sidebarlamar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(38): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:48:32 --> Invalid file: main/user/sidebarlamar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(38): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:49:05 --> Invalid file: main/user/sidebarlamar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(38): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:54:14 --> Invalid file: main/user/sidebarlamar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(38): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:57:07 --> Undefined variable $title
+in APPPATH/Views/main/user/index.php on line 11.
+ 1 APPPATH/Views/main/user/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:57:12 --> Undefined variable $title
+in APPPATH/Views/main/user/index.php on line 11.
+ 1 APPPATH/Views/main/user/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamar()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 21:59:50 --> Invalid file: main/user/sidebaruser.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/main/user/index.php(24): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Main.php(36): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Main->index()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:01:17 --> Cannot redeclare App\Controllers\User::Rekrutmen()
+in APPPATH/Controllers/User.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-08 22:01:21 --> Cannot redeclare App\Controllers\User::Rekrutmen()
+in APPPATH/Controllers/User.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-08 22:01:43 --> Cannot redeclare App\Controllers\User::Rekrutmen()
+in APPPATH/Controllers/User.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-08 22:02:38 --> Invalid file: main/user/sidebaruser.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/main/user/lamar/index.php(24): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/User.php(39): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:27:36 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 6.
+ 1 APPPATH/Views/main/user/lamar/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:30:42 --> Invalid file: main/user/lamar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/main/user/lamar/index.php(34): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/User.php(39): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:31:29 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 37.
+ 1 APPPATH/Views/main/user/lamar/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:43:53 --> Invalid file: main/user/sidebarlamaran.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/main/user/lamar/index.php(24): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/User.php(39): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:44:25 --> Invalid file: main/user/lamar/sidebarlamaran.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/main/user/lamar/index.php(24): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/User.php(39): view()
+ 8 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 22:45:34 --> Undefined variable $title
+in APPPATH/Views/main/user/lamar/index.php on line 11.
+ 1 APPPATH/Views/main/user/lamar/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:02:33 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 23:03:55 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 23:07:38 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 23:53:32 --> mysqli_sql_exception: Column 'foto' cannot be null in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Models/lamaran.php(35): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd5/691/19482691/public_html/app/Controllers/Lamar.php(31): App\Models\lamaran->add()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Lamar->save()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 23:56:26 --> Undefined variable $validation
+in APPPATH/Views/main/user/lamar/index.php on line 55.
+ 1 APPPATH/Views/main/user/lamar/index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/user/lamar/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->Lamaran()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

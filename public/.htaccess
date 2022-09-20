@@ -1,0 +1,12 @@
+
+# HTID:20368112: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteCond $1 !^(index\.php|images|js|uploads|css|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:20368112:

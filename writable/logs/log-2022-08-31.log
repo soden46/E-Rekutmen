@@ -1,0 +1,12 @@
+CRITICAL - 2022-08-31 01:54:17 --> Cannot redeclare App\Controllers\Detail::Nuansa()
+in APPPATH/Controllers/Detail.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-31 01:54:24 --> Cannot redeclare App\Controllers\Detail::Nuansa()
+in APPPATH/Controllers/Detail.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-31 01:54:27 --> Cannot redeclare App\Controllers\Detail::Nuansa()
+in APPPATH/Controllers/Detail.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-31 01:54:30 --> Cannot redeclare App\Controllers\Detail::Nuansa()
+in APPPATH/Controllers/Detail.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

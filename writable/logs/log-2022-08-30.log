@@ -1,0 +1,109 @@
+CRITICAL - 2022-08-30 04:58:24 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH/Controllers/Home.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:58:31 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH/Controllers/Home.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:30:25 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:32:47 --> Undefined property: App\Controllers\Home::$load
+in APPPATH/Controllers/Home.php on line 10.
+ 1 APPPATH/Controllers/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:47:19 --> include(template/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/home/Home.php on line 10.
+ 1 APPPATH/Views/home/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/home/Home.php(10): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/Home.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:50:00 --> include(template/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/home/Home.php on line 22.
+ 1 APPPATH/Views/home/Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/home/Home.php(22): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/Home.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:50:39 --> include(views/template/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/home/Home.php on line 22.
+ 1 APPPATH/Views/home/Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/home/Home.php(22): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/Home.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:50:54 --> include(views/template/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/home/Home.php on line 22.
+ 1 APPPATH/Views/home/Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/home/Home.php(22): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/Home.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:21:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Home.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-30 10:21:44 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Home.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-30 10:21:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Home.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-30 10:22:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Home.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-30 10:41:21 --> include(): https:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH/Views/Home.php on line 76.
+ 1 APPPATH/Views/Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/Home.php(76): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(10): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:43:07 --> include(): https:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH/Views/Home.php on line 76.
+ 1 APPPATH/Views/Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/Home.php(76): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(10): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

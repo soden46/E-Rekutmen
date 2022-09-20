@@ -1,0 +1,839 @@
+CRITICAL - 2022-09-07 00:11:35 --> Invalid file: login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Auth.php(25): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 00:12:52 --> Invalid file: main/layot.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Auth.php(25): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:00:29 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:00:29 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:00:33 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:00:33 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:00:57 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 22:01:06 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 22:04:36 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 22:16:24 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:16:24 --> Undefined variable $lamaran
+in APPPATH/Views/main/admin/lamaran.php on line 18.
+ 1 APPPATH/Views/main/admin/lamaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:19:29 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:19:29 --> Undefined variable $pelamar
+in APPPATH/Views/main/admin/lamaran.php on line 18.
+ 1 APPPATH/Views/main/admin/lamaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:21:52 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:21:52 --> Undefined variable $title
+in APPPATH/Views/main/admin/lamaran.php on line 7.
+ 1 APPPATH/Views/main/admin/lamaran.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:22:33 --> Undefined variable $title
+in APPPATH/Views/main/layout.php on line 11.
+ 1 APPPATH/Views/main/layout.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Auth.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:24:08 --> Undefined variable $title
+in APPPATH/Views/main/layout.php on line 11.
+ 1 APPPATH/Views/main/layout.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Auth.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:24:45 --> Undefined variable $title
+in APPPATH/Controllers/Auth.php on line 26.
+ 1 APPPATH/Controllers/Auth.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:25:34 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:25:34 --> Undefined variable $pelamar
+in APPPATH/Views/main/admin/lamaran.php on line 19.
+ 1 APPPATH/Views/main/admin/lamaran.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:27:13 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:27:13 --> Undefined variable $lamaran
+in APPPATH/Views/main/admin/lamaran.php on line 19.
+ 1 APPPATH/Views/main/admin/lamaran.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:36:15 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:36:15 --> Undefined variable $lamaran
+in APPPATH/Views/main/admin/lamaran.php on line 18.
+ 1 APPPATH/Views/main/admin/lamaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:38:42 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:38:42 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/main/admin/lamaran.php on line 18.
+ 1 APPPATH/Views/main/admin/lamaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:50:05 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 22:51:51 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 22:51:53 --> include(main\admin\lamaran): Failed to open stream: No such file or directory
+in APPPATH/Views/main/template/sidebar.php on line 56.
+ 1 APPPATH/Views/main/template/sidebar.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/main/template/sidebar.php(56): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/sidebar.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/main/layout.php(29): CodeIgniter\View\View->include()
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Auth.php(26): view()
+11 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+12 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:52:20 --> include(main/admin/lamaran): Failed to open stream: No such file or directory
+in APPPATH/Views/main/template/sidebar.php on line 56.
+ 1 APPPATH/Views/main/template/sidebar.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/main/template/sidebar.php(56): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/sidebar.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/main/layout.php(29): CodeIgniter\View\View->include()
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Auth.php(26): view()
+11 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+12 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:53:51 --> include(main\admin\lamaran): Failed to open stream: No such file or directory
+in APPPATH/Views/main/template/sidebar.php on line 56.
+ 1 APPPATH/Views/main/template/sidebar.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/main/template/sidebar.php(56): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/template/sidebar.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/main/layout.php(29): CodeIgniter\View\View->include()
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/layout.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Auth.php(26): view()
+11 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Auth->main()
+12 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:57:50 --> syntax error, unexpected token "("
+in APPPATH/Controllers/Admin.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(854): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:00:10 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:00:14 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:02:30 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:02:34 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:03:09 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:03:42 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:05:37 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:05:43 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:05:48 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:07:05 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:07:14 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:12:26 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:15:40 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:17:01 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:19:13 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:19:51 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-07 23:22:36 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:22:36 --> syntax error, unexpected end of file
+in APPPATH/Views/main/admin/lamaran.php on line 464.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin.php(17): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:23:05 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:23:05 --> Undefined variable $lamaran
+in APPPATH/Views/main/admin/lamaran.php on line 385.
+ 1 APPPATH/Views/main/admin/lamaran.php(385): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:28:27 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:28:27 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:29:14 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:29:14 --> Call to a member function get() on bool
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:30:43 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:30:43 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:32:48 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:32:48 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:33:27 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:33:27 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:33:40 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:33:40 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:34:33 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:34:33 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Views/main/admin/lamaran.php on line 385.
+ 1 APPPATH/Views/main/admin/lamaran.php(385): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:35:38 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:35:38 --> Undefined variable $bulder
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 APPPATH/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:36:01 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:36:01 --> Undefined array key "lamaran"
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 APPPATH/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:36:19 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:36:19 --> Undefined array key "lamaran"
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 APPPATH/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 23:38:33 --> mysqli_sql_exception: Not unique table/alias: 'lamaran' in /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd5/691/19482691/public_html/app/Controllers/Admin.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+#6 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/691/19482691/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/691/19482691/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-07 23:38:33 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Admin.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:51:02 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:53:35 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:54:58 --> Constant expression contains invalid operations
+in APPPATH/Models/lamaran.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-07 23:59:12 --> Attempt to read property "nama" on array
+in APPPATH/Views/main/admin/lamaran.php on line 388.
+ 1 APPPATH/Views/main/admin/lamaran.php(388): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main/admin/lamaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin->Rekrutmen()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
