@@ -26,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="http://localhost:8080/"><img src="<?php echo base_url("public/assets/images/ci.png"); ?> " width="100%" height="50" alt=""></a>
+                <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url("assets/images/ci.png"); ?> " width="100%" height="50" alt=""></a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost:8080/Rekrut"><i class="fa-solid fa-calendar"></i> Recruitment</a>
@@ -64,13 +64,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="<?php echo base_url("public/assets/images/ci.png"); ?>" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url("assets/images/ci.png"); ?>" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="<?php echo base_url("public/assets/images/rekrutmen.jpg"); ?>" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url("assets/images/rekrutmen.jpg"); ?>" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="<?php echo base_url("public/assets/images/rekrutmen2.jpg"); ?>" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url("assets/images/rekrutmen2.jpg"); ?>" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
