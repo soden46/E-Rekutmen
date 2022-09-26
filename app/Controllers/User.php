@@ -10,83 +10,88 @@ use \App\Models\lamaran;
 
 class User extends BaseController
 {
-    
-   protected $session;
-   protected $db;
+
+    protected $session;
+    protected $db;
     public function __construct()
     {
-        helper(['form', 'url','session']);
+        helper(['form', 'url', 'session']);
         session()->get('id');
     }
-    
-   public function index(){
-         $data['title'] = 'Pelamar';
+
+    public function index()
+    {
+        $data['title'] = 'Pelamar';
         //  $db      = \Config\Database::connect();
         //  $builder = $db->table('lamaran');
         //  $builder->select('*');
         //  $query = $builder->get();
-        
+
         // $data ['lamaran']= $query->getResult();
-      return view('user/index');  
-   }
-   
-   public function Status(){
-         $sesi = user()->id;
-         $data['title'] = 'status lamaran';
-         $db      = \Config\Database::connect();
-         $builder = $db->table('lamaran');
-         $builder->select('*');
-         $builder->where('iduser',$sesi);
-         $query = $builder->get();
-        
-        $data ['lamaran']= $query->getResult();
-     
-      return view('main/user/status/index',$data);  
-   }
-   
-   public function Lamaran()
-	{
+        return view('user/index');
+    }
+
+    public function Status()
+    {
+        $sesi = user()->id;
+        $data['title'] = 'status lamaran';
+        $db      = \Config\Database::connect();
+        $builder = $db->table('lamaran');
+        $builder->select('*');
+        $builder->where('iduser', $sesi);
+        $query = $builder->get();
+
+        $data['lamaran'] = $query->getResult();
+
+        return view('main/user/status/index', $data);
+    }
+
+    //ini buat nampilin form cerate/form isi data
+    public function Lamaran()
+    {
         $data = [
-           'title'=>'Form Pengajuan Lamaran',
-           'validation'=>\Config\Services::validation(),
-           'session'=> session()->get('id')
+            'title' => 'Form Pengajuan Lamaran',
+            'validation' => \Config\Services::validation(),
+            'session' => session()->get('id')
         ];
-		return view('main/user/lamar/index',$data);
-	}
-   
-   public function logout(){
+        return view('main/user/lamar/index', $data);
+    }
+
+    public function logout()
+    {
         session_destroy();
         return redirect()->to('home/Home');
     }
     public function Rekrutmen()
     {
-         $data['title'] = 'lamaran';
-         $db      = \Config\Database::connect();
-         $builder = $db->table('lamaran');
-         $builder->select('*');
-         $query = $builder->get();
-        
-        $data ['lamaran']= $query->getResult();
+        $data['title'] = 'lamaran';
+        $db      = \Config\Database::connect();
+        $builder = $db->table('lamaran');
+        $builder->select('*');
+        $query = $builder->get();
+
+        $data['lamaran'] = $query->getResult();
         return view('main/user/lamar/lamar', $data);
     }
-    
+
     public function create()
     {
-        $session=\Config\Services::session();
+        $session = \Config\Services::session();
         $data = [
-           'title'=>'Form Pengajuan Lamaran',
-           'validation' => \Config\Services::validation()
+            'title' => 'Form Pengajuan Lamaran',
+            'validation' => \Config\Services::validation()
         ];
-		
+
         // tampilkan form create
-        return view('main/user/lamar/lamar',$data,$session);
+        return view('main/user/lamar/lamar', $data, $session);
     }
-    
-    public function save(){
-    session('id');
-    $session=\Config\Services::session();
-    $lamaran = new lamaran();
-    if (!$this->validate([
+
+    public function save()
+    {
+        session('id');
+        $session = \Config\Services::session();
+        $lamaran = new lamaran();
+        if (!$this->validate([
             'nama' => [
                 'rules' => 'required',
                 'errors' => [
@@ -118,34 +123,31 @@ class User extends BaseController
                     'ext_in' => 'Format Tidak Didukung, Format Surat Lamaran Harus PDF',
                 ]
             ]
-        ])){
+        ])) {
 
             return redirect()->to('/Lamaran')->withInput();
         }
-        
-            $filefoto = $this->request->getFile('foto');
-            $namaFoto = $filefoto->getRandomName();
-            $filefoto->move('assets/upload/foto',$namaFoto);
-            $filecv = $this->request->getFile('cv');
-            $namaCv = $filecv->getRandomName();
-            $filecv->move('assets/upload/cv',$namaCv);
-            $filesurat = $this->request->getFile('surat_lamaran');
-            $namasurat = $filesurat->getRandomName();
-            $filesurat->move('assets/upload/surat_lamaran',$namasurat);
-            
 
-          $sesi = user()->id;
-          $data = [
- 
+        $filefoto = $this->request->getFile('foto');
+        $namaFoto = $filefoto->getRandomName();
+        $filefoto->move('assets/upload/foto', $namaFoto);
+        $filecv = $this->request->getFile('cv');
+        $namaCv = $filecv->getRandomName();
+        $filecv->move('assets/upload/cv', $namaCv);
+        $filesurat = $this->request->getFile('surat_lamaran');
+        $namasurat = $filesurat->getRandomName();
+        $filesurat->move('assets/upload/surat_lamaran', $namasurat);
+
+        $sesi = user()->id;
+        $data = [
             'nama' =>  $this->request->getVar('nama'),
             'foto'  => $namaFoto,
             'cv'  => $namaCv,
             'surat_lamaran'  => $namasurat,
-            'iduser'=>  $sesi
-          ];
- 
-          $lamaran->savedata($data,'user'); 
-          return redirect()->to('Lamaran')->with('berhasil', 'Data Berhasil di Simpan');
-    }      
-        
+            'iduser' =>  $sesi
+        ];
+
+        $lamaran->savedata($data, 'user');
+        return redirect()->to('Lamaran')->with('berhasil', 'Data Berhasil di Simpan');
+    }
 }

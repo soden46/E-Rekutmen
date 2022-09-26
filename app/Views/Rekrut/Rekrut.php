@@ -26,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="/"><img src="<?php echo base_url("assets/images/bento-logo.png"); ?> " width="50" height="50" alt=""></a>
+                <a class="navbar-brand" href="/"><img src="<?php echo base_url("assets/images/ci.png"); ?> " width="50" height="50" alt=""></a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-calendar"></i> Recruitment</a>
@@ -60,7 +60,7 @@
                             caffe 1
                         </div>
                         <div class="my-4">
-                            <img class="img-jalur" src="<?php echo base_url(".jpg"); ?>" width="150" height="150">
+                            <img class="img-jalur" src="<?php echo base_url("assets/images/kopi1.jpg"); ?>" width="150" height="150">
                         </div>
                         <ul class="list-unstyled leading-loose">
                             <li>
@@ -88,7 +88,7 @@
                             caffe 2
                         </div>
                         <div class="my-4">
-                            <img class="img-jalur" src="<?php echo base_url("assets/images/.jpg"); ?>" width="150" height="150">
+                            <img class="img-jalur" src="<?php echo base_url("assets/images/kopi2.png"); ?>" width="150" height="150">
                         </div>
                         <ul class="list-unstyled leading-loose">
                             <li>
@@ -116,7 +116,7 @@
                             caffe 3
                         </div>
                         <div class="my-4">
-                            <img class="img-jalur" src="<?php echo base_url("/.jpg"); ?>" width="150" height="150"">
+                            <img class="img-jalur" src="<?php echo base_url("assets/images/siger.jpeg"); ?>" width="150" height="150"">
                             </div>
                             <ul class=" list-unstyled leading-loose">
                             <li>
@@ -137,148 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card pricing-card ">
-                        <div class="card-body text-center">
-                            <div class="card-category" style="font-size: 15px">
-                                caaffe 3
-                            </div>
-                            <div class="my-4">
-                                <img class="img-jalur" src="<?php echo base_url("assets/images/k.jpg"); ?>">
-                            </div>
-                            <ul class="list-unstyled leading-loose">
-                                <li>
-                                    <i class="fe fe-check text-success mr-2"></i>
-                                    Barista
-                                </li>
-                                <li><i class="fe fe-check text-success mr-2"></i>
-                                    Waiters
-                                </li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kebersihan</li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kasir</li>
-                            </ul>
-                            <div class="text-center mt-6">
-                                <a href="<?php echo base_url("login"); ?>" class="btn btn-success btn-block">Daftar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card pricing-card ">
-                        <div class="card-body text-center">
-                            <div class="card-category" style="font-size: 15px">
-                                caffe 4
-                            </div>
-                            <div class="my-4">
-                                <img class="img-jalur" src="<?php echo base_url("assets/images/.png"); ?>" width="150" height="150">
-                            </div>
-                            <ul class="list-unstyled leading-loose">
-                                <li>
-                                    <i class="fe fe-check text-success mr-2"></i>
-                                    Barista
-                                </li>
-                                <li><i class="fe fe-check text-success mr-2"></i>
-                                    Waiters
-                                </li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kebersihan</li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kasir</li>
-                            </ul>
-                            <div class="text-center mt-6">
-                                <a href="<?php echo base_url("login"); ?>" class="btn btn-success btn-block">Daftar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card pricing-card ">
-                        <div class="card-body text-center">
-                            <div class="card-category" style="font-size: 15px">
-                                caffe 5
-                            </div>
-                            <div class="my-4">
-                                <img class="img-jalur" src="<?php echo base_url("assets/images/.jpg"); ?>" width="150" height="150">
-                            </div>
-                            <ul class="list-unstyled leading-loose">
-                                <li>
-                                    <i class="fe fe-check text-success mr-2"></i>
-                                    Barista
-                                </li>
-                                <li><i class="fe fe-check text-success mr-2"></i>
-                                    Waiters
-                                </li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kebersihan</li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kasir</li>
-                            </ul>
-                            <div class="text-center mt-6">
-                                <a href="<?php echo base_url("login"); ?>" class="btn btn-success btn-block">Daftar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card pricing-card ">
-                        <div class="card-body text-center">
-                            <div class="card-category" style="font-size: 15px">
-                                caffe
-                            </div>
-                            <div class="my-4">
-                                <img class="img-jalur" src="<?php echo base_url("assets/image/.jpg"); ?>" width="150" height="150">
-                            </div>
-                            <ul class="list-unstyled leading-loose">
-                                <li>
-                                    <i class="fe fe-check text-success mr-2"></i>
-                                    Barista
-                                </li>
-                                <li><i class="fe fe-check text-success mr-2"></i>
-                                    Waiters
-                                </li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kebersihan</li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kasir</li>
-                            </ul>
-                            <div class="text-center mt-6">
-                                <a href="<?php echo base_url("login"); ?>" class="btn btn-success btn-block">Daftar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card pricing-card ">
-                        <div class="card-body text-center">
-                            <div class="card-category" style="font-size: 15px">
-                                caffe
-                            </div>
-                            <div class="my-4">
-                                <img class="img-jalur" src="<?php echo base_url("assets/image/.jpg"); ?>" width="150" height="150">
-                            </div>
-                            <ul class="list-unstyled leading-loose">
-                                <li>
-                                    <i class="fe fe-check text-success mr-2"></i>
-                                    Barista
-                                </li>
-                                <li><i class="fe fe-check text-success mr-2"></i>
-                                    Waiters
-                                </li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kebersihan</li>
-                                <li><i class="fe fe-x text-danger  mr-2"></i>
-                                    Kasir</li>
-                            </ul>
-                            <div class="text-center mt-6">
-                                <a href="<?php echo base_url("login"); ?>" class="btn btn-success btn-block">Daftar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-
         </div>
 
 
