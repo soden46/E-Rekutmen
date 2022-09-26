@@ -29,7 +29,7 @@
                 <a class="navbar-brand" href="/"><img src="<?php echo base_url("assets/images/ci.png"); ?> " width="50" height="50" alt=""></a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-calendar"></i> Recruitment</a>
+                        <a class="nav-link" href="Rekrut"><i class="fa-solid fa-calendar"></i> Recruitment</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-chart-line"></i>Event</a>
@@ -116,7 +116,7 @@
                             caffe 3
                         </div>
                         <div class="my-4">
-                            <img class="img-jalur" src="<?php echo base_url("assets/images/siger.jpeg"); ?>" width="150" height="150"">
+                            <img class="img-jalur" src="<?php echo base_url("assets/images/kopi3.jpg"); ?>" width="150" height="150"">
                             </div>
                             <ul class=" list-unstyled leading-loose">
                             <li>
@@ -139,11 +139,9 @@
                 </div>
             </div>
         </div>
-
-
-        <footer class="jumbotron jumbotron-fluid mt-5 mb-0">
-            <div class="container text-center">Copyright &copy <?= Date('Y') ?> E Rekrutmen</div>
-        </footer>
+        <div class="card-footer text-muted mt-4 text-center">
+            Copyright &copy <?= Date('Y') ?> E-Recruitment
+        </div>
 
         <!-- Jquery dan Bootsrap JS -->
         <script src="<?= base_url('public/assets/js/jquery-3.6.1.min.js') ?>"></script>
